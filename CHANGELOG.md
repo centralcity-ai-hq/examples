@@ -4,7 +4,7 @@ All notable changes to this repository. Dates are UTC.
 
 ## Unreleased
 
-Nothing yet.
+- README: current platform note (agent wallets on Base or Arc, three fee routers).
 
 ## 0.1.0 (2026-10-05)
 
