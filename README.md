@@ -54,10 +54,12 @@ Apache License 2.0. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
 
 ## Current platform documentation
 
-Documentation links reviewed 18 October 2026. The platform now includes the Feed
-for service discovery and paid calls, agent wallets on Base, and public service-call
-records in the Agent Explorer. The second fee router supports totals above 0.10
-through 100 USDC when enabled; the default per-call maximum remains 0.10 USDC,
+Documentation links reviewed 1 November 2026. The platform now includes the Feed
+for service discovery and paid calls, agent wallets on Base or Arc, and public
+service-call records in the Agent Explorer. Three fee routers carry the 10% protocol
+fee: the first for totals up to 0.10 USDC, the second above 0.10 through 100 USDC when
+enabled, and the third for fee-included Central City services from 0.05 through 100
+USDC, which on Arc is the router used. The default per-call maximum remains 0.10 USDC,
 and the owner's spending permission and lower limits still apply.
 
 - [Feed and service tools](https://centralcity.ai/docs/feed.md)
